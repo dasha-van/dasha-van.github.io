@@ -12,20 +12,30 @@ function search() {
             position: "-40px 0px",
             url: "https://www.google.com/search?q="
         },  {
-            name: "Deepl",
+            name: "Яндекс",
             img: "url('/images/search_icon.png') -80px 0px",
             position: "0px 0px",
-            url: "https://www.deepl.com/translator#ru/zh/"
+            url: "https://yandex.ru/search/?lr=2&text="
         },{
-            name: "yandex翻译",
+            name: "bing",
             img: "url('/images/search_icon.png') -80px 0px",
             position: "0px 0px",
-            url: "https://translate.yandex.com/?lang=ru-zh&text="
+            url: "https://www.bing.com/search?q="
         }, {
-            name: "千亿",
+            name: "大БРКС",
+            img: "url('/images/search_icon.png')  -80px -25px",
+            position: "0px -40px",
+            url: "https://bkrs.info/slovo.php?ch="
+        }, {
+            name: "千亿词霸",
             img: "url('/images/search_icon.png')  -80px -25px",
             position: "0px -40px",
             url: "https://w.qianyix.com/index.php?q="
+        }, {
+            name: "译酷俄语",
+            img: "url('/images/search_icon.png') -80px -150px",
+            position: "0px -240px",
+            url: "http://ru.yicool.cn/Search.aspx?q="
         }, {
             name: "B站",
             img: "url('/images/search_icon.png') -105px -125px",
@@ -42,11 +52,6 @@ function search() {
             position: "0px -200px",
             url: "https://s.weibo.com/weibo/"
         }, {
-            name: "豆瓣",
-            img: "url('/images/search_icon.png') -80px -150px",
-            position: "0px -240px",
-            url: "https://www.douban.com/search?source=suggest&q="
-        }, {
             name: "京东",
             img: "url('/images/search_icon.png') -80px -75px",
             position: "0px -120px",
@@ -61,11 +66,6 @@ function search() {
             img: "url('/images/search_icon.png') -105px -50px",
             position: "-40px -80px",
             url: "https://s.taobao.com/search?q="
-        }, {
-            name: "GitHub",
-            img: "url('/images/search_icon.png') -80px -175px",
-            position: "0px -280px",
-            url: "https://github.com/search?utf8=✓&q="
         }]
     };
     var localSearchData = localStorage.getItem("searchData");
