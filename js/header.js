@@ -6,57 +6,59 @@ function search() {
         "thisSearch": "https://www.google.com/search?q=",
         "thisSearchIcon": "url('/images/search_icon.png')",
         "hotStatus": true,
-        // "data": [{
-        //     name: "谷歌",
-        //     img: "url('/images/search_icon.png')  -105px 0px",
-        //     position: "-40px 0px",
-        //     url: "https://www.google.com/search?q="
-        // }, {
-        //     name: "必应",
-        //     img: "url('/images/search_icon.png')  -80px -25px",
-        //     position: "0px -40px",
-        //     url: "https://cn.bing.com/search?q="
-        // }, {
-        //     name: "百度",
-        //     img: "url('/images/search_icon.png') -80px 0px",
-        //     position: "0px 0px",
-        //     url: "https://www.baidu.com/s?wd="
-        // }, {
-        //     name: "B站",
-        //     img: "url('/images/search_icon.png') -105px -125px",
-        //     position: "-40px -200px",
-        //     url: "http://search.bilibili.com/all?keyword="
-        // }, {
-        //     name: "知乎",
-        //     img: "url('/images/search_icon.png') -105px -100px",
-        //     position: "-40px -160px",
-        //     url: "https://www.zhihu.com/search?type=content&q="
-        // }, {
-        //     name: "微博",
-        //     img: "url('/images/search_icon.png') -80px -125px",
-        //     position: "0px -200px",
-        //     url: "https://s.weibo.com/weibo/"
-        // }, {
-        //     name: "京东",
-        //     img: "url('/images/search_icon.png') -80px -75px",
-        //     position: "0px -120px",
-        //     url: "http://search.jd.com/Search?keyword="
-        // }, {
-        //     name: "天猫",
-        //     img: "url('/images/search_icon.png') -105px -75px",
-        //     position: "-40px -120px",
-        //     url: "https://list.tmall.com/search_product.htm?q="
-        // }, {
-        //     name: "豆瓣",
-        //     img: "url('/images/search_icon.png') -80px -150px",
-        //     position: "0px -240px",
-        //     url: "https://www.douban.com/search?source=suggest&q="
-        // }, {
-        //     name: "GitHub",
-        //     img: "url('/images/search_icon.png') -80px -175px",
-        //     position: "0px -280px",
-        //     url: "https://github.com/search?utf8=✓&q="
-        // }]
+        "data": [{
+            name: "谷歌",
+            img: "url('/images/search_icon.png')  -105px 0px",
+            position: "-40px 0px",
+            url: "https://www.google.com/search?q="
+        }, {
+            name: "必应",
+            img: "url('/images/search_icon.png')  -80px -25px",
+            position: "0px -40px",
+            url: "https://w.qianyix.com/index.php?q="
+            // url: "https://cn.bing.com/search?q="
+            
+        }, {
+            name: "百度",
+            img: "url('/images/search_icon.png') -80px 0px",
+            position: "0px 0px",
+            url: "https://www.baidu.com/s?wd="
+        }, {
+            name: "B站",
+            img: "url('/images/search_icon.png') -105px -125px",
+            position: "-40px -200px",
+            url: "http://search.bilibili.com/all?keyword="
+        }, {
+            name: "知乎",
+            img: "url('/images/search_icon.png') -105px -100px",
+            position: "-40px -160px",
+            url: "https://www.zhihu.com/search?type=content&q="
+        }, {
+            name: "微博",
+            img: "url('/images/search_icon.png') -80px -125px",
+            position: "0px -200px",
+            url: "https://s.weibo.com/weibo/"
+        }, {
+            name: "京东",
+            img: "url('/images/search_icon.png') -80px -75px",
+            position: "0px -120px",
+            url: "http://search.jd.com/Search?keyword="
+        }, {
+            name: "天猫",
+            img: "url('/images/search_icon.png') -105px -75px",
+            position: "-40px -120px",
+            url: "https://list.tmall.com/search_product.htm?q="
+        }, {
+            name: "豆瓣",
+            img: "url('/images/search_icon.png') -80px -150px",
+            position: "0px -240px",
+            url: "https://www.douban.com/search?source=suggest&q="
+        }, {
+            name: "GitHub",
+            img: "url('/images/search_icon.png') -80px -175px",
+            position: "0px -280px",
+            url: "https://github.com/search?utf8=✓&q="
+        }]
     };
     var localSearchData = localStorage.getItem("searchData");
     if (localSearchData) {
