@@ -12,6 +12,11 @@ function search() {
             position: "-40px 0px",
             url: "https://www.google.com/search?q="
         }, {
+            name: "百度",
+            img: "url('/images/search_icon.png') -80px 0px",
+            position: "0px 0px",
+            url: "https://www.baidu.com/s?wd="
+        }, {
             name: "必应",
             img: "url('/images/search_icon.png')  -80px -25px",
             position: "0px -40px",
