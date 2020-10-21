@@ -11,11 +11,16 @@ function search() {
             img: "url('/images/search_icon.png')  -105px 0px",
             position: "-40px 0px",
             url: "https://www.google.com/search?q="
-        }, {
-            name: "百度",
+        },  {
+            name: "Deepl",
             img: "url('/images/search_icon.png') -80px 0px",
             position: "0px 0px",
-            url: "https://www.baidu.com/s?wd="
+            url: "https://www.deepl.com/translator#ru/zh/"
+        },{
+            name: "yandex翻译",
+            img: "url('/images/search_icon.png') -80px 0px",
+            position: "0px 0px",
+            url: "https://translate.yandex.com/?lang=ru-zh&text="
         }, {
             name: "千亿",
             img: "url('/images/search_icon.png')  -80px -25px",
