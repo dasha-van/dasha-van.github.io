@@ -12,12 +12,11 @@ function search() {
             position: "-40px 0px",
             url: "https://www.google.com/search?q="
         }, {
-            name: "必应",
+            name: "千亿",
             img: "url('/images/search_icon.png')  -80px -25px",
             position: "0px -40px",
             url: "https://w.qianyix.com/index.php?q="
             // url: "https://cn.bing.com/search?q="
-            
         }, {
             name: "百度",
             img: "url('/images/search_icon.png') -80px 0px",
