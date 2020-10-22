@@ -8,7 +8,7 @@ function search() {
         "hotStatus": true,
         "data": [{
             name: "谷歌",
-            img: "url('/images/search_icon.png')  -105px 0px",
+            img: "url('/images/search_icon.png')  -80px 0px",
             position: "0px 0px",
             url: "https://www.google.com/search?q="
         }, {
@@ -18,7 +18,7 @@ function search() {
             url: "https://www.bing.com/search?q="
         },  {
             name: "Яндекс",
-            img: "url('/images/search_icon.png')  -80px 0px",
+            img: "url('/images/search_icon.png')  -105px 0px",
             position: "-40px 0px",
             url: "https://yandex.ru/search/?lr=2&text="
         },{
