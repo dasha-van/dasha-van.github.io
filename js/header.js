@@ -47,7 +47,7 @@ function search() {
             position: "-40px -120px",
             url: "https://translate.yandex.com/?lang=ru-zh&text="
         }, {
-            name: "DeepL",
+            name: "DeepL翻译",
             img: "url('/images/search_icon.png') -105px -50px",
             position: "-40px -80px",
             url: "https://www.deepl.com/translator#ru/zh/"
