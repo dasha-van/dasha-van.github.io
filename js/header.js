@@ -37,6 +37,21 @@ function search() {
             position: "0px -240px",
             url: "http://ru.yicool.cn/Search.aspx?q="
         }, {
+            name: "Google翻译",
+            img: "url('/images/search_icon.png') -80px -75px",
+            position: "0px -120px",
+            url: "https://translate.google.cn/?sl=ru&tl=zh-CN&text="
+        }, {
+            name: "Яндекс翻译",
+            img: "url('/images/search_icon.png') -105px -75px",
+            position: "-40px -120px",
+            url: "https://translate.yandex.com/?lang=ru-zh&text="
+        }, {
+            name: "DeepL",
+            img: "url('/images/search_icon.png') -105px -50px",
+            position: "-40px -80px",
+            url: "https://www.deepl.com/translator#ru/zh/"
+        }, {
             name: "B站",
             img: "url('/images/search_icon.png') -105px -125px",
             position: "-40px -200px",
@@ -51,22 +66,7 @@ function search() {
             img: "url('/images/search_icon.png') -80px -125px",
             position: "0px -200px",
             url: "https://s.weibo.com/weibo/"
-        }, {
-            name: "京东",
-            img: "url('/images/search_icon.png') -80px -75px",
-            position: "0px -120px",
-            url: "http://search.jd.com/Search?keyword="
-        }, {
-            name: "天猫",
-            img: "url('/images/search_icon.png') -105px -75px",
-            position: "-40px -120px",
-            url: "https://list.tmall.com/search_product.htm?q="
-        }, {
-            name: "淘宝",
-            img: "url('/images/search_icon.png') -105px -50px",
-            position: "-40px -80px",
-            url: "https://s.taobao.com/search?q="
-        }]
+        },]
     };
     var localSearchData = localStorage.getItem("searchData");
     if (localSearchData) {
