@@ -7,7 +7,7 @@ function search() {
         "thisSearchIcon": "url('/images/search_icon.png')",
         "hotStatus": true,
         "data": [{
-            name: "谷歌",
+            name: "Google",
             img: "url('/images/search_icon.png')  -80px 0px",
             position: "0px 0px",
             url: "https://www.google.com/search?q="
@@ -37,17 +37,17 @@ function search() {
             position: "0px -240px",
             url: "http://ru.yicool.cn/Search.aspx?q="
         }, {
-            name: "Google翻译",
+            name: "GoogleTran",
             img: "url('/images/search_icon.png') -80px -75px",
             position: "0px -120px",
             url: "https://translate.google.cn/?sl=ru&tl=zh-CN&text="
         }, {
-            name: "Яндекс翻译",
+            name: "ЯндексTran",
             img: "url('/images/search_icon.png') -105px -75px",
             position: "-40px -120px",
             url: "https://translate.yandex.com/?lang=ru-zh&text="
         }, {
-            name: "DeepL翻译",
+            name: "DeepLTran",
             img: "url('/images/search_icon.png') -105px -50px",
             position: "-40px -80px",
             url: "https://www.deepl.com/translator#ru/zh/"
